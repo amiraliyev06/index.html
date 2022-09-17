@@ -1,0 +1,40 @@
+@media ( max-width: 992px; ) { 
+div { -webkit-flex-direction: column;
+    flex-direction: column; }
+    }
+@media  ( min-width: 767px; )
+* { box-sizing: border-box;
+	padding: 10px;
+ font-family: Arial, Helvetica, sans-serif;}
+div { background-color: lightgreen;
+    margin: 10px;
+    padding: 0%;
+    width: 31%;
+    height: auto;
+    border: 1px solid black;
+    display: -webkit-flex;
+    display: flex;}
+h1 { text-align: center;}
+.p1 { float: left;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;}
+.p2 { float: left;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;}
+.p3 { float: left;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;}
+.name { float: right;
+    width: auto;
+    height: 25px;
+    background-color: darkgreen;
+    color: white;
+    padding: 0%;
+    margin: 0px;
+    text-align: center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;}
